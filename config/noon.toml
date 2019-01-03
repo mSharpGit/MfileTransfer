@@ -1,0 +1,91 @@
+# This is a TOML document.
+
+title = "Noon Files Toml"
+
+[owner]
+name = "Mahmoud"
+organization = "NCB"
+
+[user]
+ name = "p040747"
+ 
+[logs]
+ location = "logs//"
+ name = "noon-log.txt"
+ flag = 1 #os.O_WRONLY
+ permission = 0666
+
+[hotkey]
+ command = "RSATokenAutomation.ahk"
+ location = "C:\\Users\\masterserver\\Desktop\\master-files-automation\\hotkey\\"
+ outputlocation = "C:\\Users\\masterserver\\Desktop\\master-files-automation\\hotkey\\token.ini"
+
+[winscp]
+  location = "C:\\Users\\masterserver\\Desktop\\master-files-automation\\winscp\\"
+  proxy = "mitproxy"
+  outputlocation = "C:\\Users\\masterserver\\Desktop\\master-files-automation\\winscp\\out\\"
+  command = "winscp.bat"
+  transfile = "transfer.txt"
+  log = "noon-log.txt"
+  logloc = "C:\\Users\\masterserver\\Desktop\\master-files-automation\\winscp\\logs\\"
+
+  
+[servers]
+ # You can indent as you please. Tabs or spaces. TOML don't care.
+  [servers.prod]
+  url = "prod.mfe.mastercard.com"
+  ip = "12.22.155.207"
+  port= "15022"
+
+  [servers.uprod]
+  url = "uprod.mfe.mastercard.com"
+  ip = "12.22.155.208"
+  port= "16022"
+
+  [servers.test]
+  url = "mtf.mfe.mastercard.com"
+  ip = "216.119.219.6"
+  port= "15022"
+  
+  [servers.utest]
+  url = "umtf.mfe.mastercard.com"
+  ip = "216.119.219.7"
+  port= "16022"
+
+[files]
+# First EndPoint.
+[files.T112]
+  serverlocation = "/0071969/production/download/T112"
+  servername = "MCI.AR.T112.M.E0071969.D*"
+  get = false
+  outputname = "TT112T0"
+  outputlocation = "C:\\MCONLINE\\MFE\\DOWNLOAD\\"
+  prefix = "*.112C"
+
+[files.T464]
+  serverlocation = "/0071969/production/download/T464"
+  servername = "MCI.AR.T464.M.E0071969.D*"
+  get = true
+  outputname = "TT464T0"
+  outputlocation = "C:\\MCONLINE\\MFE\\DOWNLOAD\\"
+  prefix = "*.464C"
+  
+[files.T461]
+  serverlocation = "/0071969/production/download/T461"
+  servername = "MCI.AR.T461.M.E0071969.D*"
+  get = false
+  outputname = "TT461T0"
+  outputlocation = "C:\\MCONLINE\\MFE\\DOWNLOAD\\"
+  prefix = "*.461C"
+  
+[files.T140]
+  serverlocation = "/0071969/production/download/T140"
+  servername = "MCI.AR.T140.M.E0071969.D"
+  get = false
+  outputname = "TT140T0"
+  outputlocation = "C:\\MCONLINE\\MFE\\DOWNLOAD\\"
+  prefix = "*.140C"
+  
+  
+# Second EndPoint.
+  

@@ -1,0 +1,57 @@
+2019/01/03 12:45:08 ............................................Starting the download Process............................................
+2019/01/03 12:45:08 Used Command:  [master-files-automation.exe test test.toml]
+2019/01/03 12:45:08 Number of arguments:  3
+2019/01/03 12:45:08 Config File Title: Test Files Toml
+2019/01/03 12:45:08 Reading current seconds: 8
+2019/01/03 12:45:08 Seconds are not between zero and five it is not safe to get the Token:  8
+2019/01/03 12:45:08 Waiting for: 52s : then we can get the token safely
+2019/01/03 12:46:00 Now it is safe to get the Token:  0
+2019/01/03 12:46:00 calling the following command to get the token C:\Users\masterserver\Desktop\master-files-automation\hotkey\RSATokenAutomation.ahk
+2019/01/03 12:46:04 Reading the token from the output of the previous command
+2019/01/03 12:46:04 Token: 06094172
+2019/01/03 12:46:04 Adding to the transfer file open sftp://p040747:06094172@mtf.mfe.mastercard.com:15022 -rawsettings ProxyMethod=3 ProxyHost=mitproxy
+2019/01/03 12:46:04 Check if the following file should be downloaded: T167 (YTF.AR.T167.B.CCAR1212.D*, /0073275/test/download/T167,TT167T0, C:\MCONLINE\MFE\DOWNLOAD\test\, true)
+2019/01/03 12:46:04 Adding to the transfer file:  Adding File to the transfer: T167 (YTF.AR.T167.B.CCAR1212.D*, /0073275/test/download/T167,TT167T0, C:\MCONLINE\MFE\DOWNLOAD\test\, true, *.167T)
+2019/01/03 12:46:04 Adding to the transfer file:  cd /0073275/test/download/T167
+2019/01/03 12:46:04 Adding to the transfer file:  get -nopermissions -nopreservetime YTF.AR.T167.B.CCAR1212.D* C:\Users\masterserver\Desktop\master-files-automation\winscp\out\*.167T
+2019/01/03 12:46:04 Check if the following file should be downloaded: T120 (YTF.AR.T120.M.E0073275.D*, /0073275/test/download/T120,TT120T0, C:\MCONLINE\MFE\DOWNLOAD\test\, true)
+2019/01/03 12:46:04 Adding to the transfer file:  Adding File to the transfer: T120 (YTF.AR.T120.M.E0073275.D*, /0073275/test/download/T120,TT120T0, C:\MCONLINE\MFE\DOWNLOAD\test\, true, *.120T)
+2019/01/03 12:46:04 Adding to the transfer file:  cd /0073275/test/download/T120
+2019/01/03 12:46:04 Adding to the transfer file:  get -nopermissions -nopreservetime YTF.AR.T120.M.E0073275.D* C:\Users\masterserver\Desktop\master-files-automation\winscp\out\*.120T
+2019/01/03 12:46:04 Adding to the transfer file:  get -nopermissions -nopreservetime YTF.AR.T120.M.E0073275.D* C:\Users\masterserver\Desktop\master-files-automation\winscp\out\*.120T
+2019/01/03 12:46:04 calling the following command to get the files C:\Users\masterserver\Desktop\master-files-automation\winscp\winscp.bat transfer.txt
+2019/01/03 12:51:34 Starting the rename process for each downloaded file
+2019/01/03 12:51:34 Check if the following file should be renamed: T120 (YTF.AR.T120.M.E0073275.D*, /0073275/test/download/T120,TT120T0, C:\MCONLINE\MFE\DOWNLOAD\test\, true)
+2019/01/03 12:51:36 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T120.M.E0073275.D190103.T030321.120T to C:\MCONLINE\MFE\DOWNLOAD\test\TT120T0.2019-01-03-12-51-34.001
+2019/01/03 12:51:36 Check if the following file should be renamed: T167 (YTF.AR.T167.B.CCAR1212.D*, /0073275/test/download/T167,TT167T0, C:\MCONLINE\MFE\DOWNLOAD\test\, true)
+2019/01/03 12:51:38 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D181204.T112052.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-51-36.001
+2019/01/03 12:51:40 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D181205.T112139.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-51-38.001
+2019/01/03 12:51:42 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D181206.T112052.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-51-40.001
+2019/01/03 12:51:44 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D181207.T112033.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-51-42.001
+2019/01/03 12:51:46 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D181208.T112108.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-51-44.001
+2019/01/03 12:51:48 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D181209.T112045.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-51-46.001
+2019/01/03 12:51:50 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D181210.T112039.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-51-48.001
+2019/01/03 12:51:52 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D181211.T114858.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-51-50.001
+2019/01/03 12:51:54 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D181212.T112119.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-51-52.001
+2019/01/03 12:51:56 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D181213.T112059.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-51-54.001
+2019/01/03 12:51:58 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D181214.T120800.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-51-56.001
+2019/01/03 12:52:00 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D181215.T112059.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-51-58.001
+2019/01/03 12:52:02 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D181216.T112031.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-52-00.001
+2019/01/03 12:52:04 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D181217.T112116.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-52-02.001
+2019/01/03 12:52:06 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D181218.T112119.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-52-04.001
+2019/01/03 12:52:08 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D181219.T112120.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-52-06.001
+2019/01/03 12:52:10 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D181220.T112125.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-52-08.001
+2019/01/03 12:52:12 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D181221.T112116.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-52-10.001
+2019/01/03 12:52:14 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D181222.T112038.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-52-12.001
+2019/01/03 12:52:16 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D181223.T112031.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-52-14.001
+2019/01/03 12:52:18 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D181224.T112135.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-52-16.001
+2019/01/03 12:52:20 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D181225.T112053.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-52-18.001
+2019/01/03 12:52:22 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D181226.T112038.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-52-20.001
+2019/01/03 12:52:24 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D181227.T112106.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-52-22.001
+2019/01/03 12:52:26 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D181228.T112218.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-52-24.001
+2019/01/03 12:52:28 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D181229.T112038.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-52-26.001
+2019/01/03 12:52:30 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D181230.T112043.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-52-28.001
+2019/01/03 12:52:32 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D181231.T112108.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-52-30.001
+2019/01/03 12:52:34 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D190101.T112027.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-52-32.001
+2019/01/03 12:52:36 naming C:\Users\masterserver\Desktop\master-files-automation\winscp\out\YTF.AR.T167.B.CCAR1212.D190102.T112044.167T to C:\MCONLINE\MFE\DOWNLOAD\test\TT167T0.2019-01-03-12-52-34.001
+2019/01/03 12:52:36 ............................................Finished the download Process............................................

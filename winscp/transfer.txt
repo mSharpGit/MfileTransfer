@@ -1,0 +1,6 @@
+open sftp://p040747:06094172@mtf.mfe.mastercard.com:15022 -rawsettings ProxyMethod=3 ProxyHost=mitproxy
+cd /0073275/test/download/T167
+get -nopermissions -nopreservetime YTF.AR.T167.B.CCAR1212.D* C:\Users\masterserver\Desktop\master-files-automation\winscp\out\*.167T
+cd /0073275/test/download/T120
+get -nopermissions -nopreservetime YTF.AR.T120.M.E0073275.D* C:\Users\masterserver\Desktop\master-files-automation\winscp\out\*.120T
+exit

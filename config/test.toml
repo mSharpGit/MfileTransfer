@@ -1,0 +1,72 @@
+# This is a TOML document.
+
+title = "Test Files Toml"
+
+[owner]
+name = "Mahmoud"
+organization = "NCB"
+
+[user]
+ name = "p040747"
+ 
+[logs]
+ location = "logs//"
+ name = "test-log.txt"
+ flag = 1 #os.O_WRONLY
+ permission = 0666
+
+[hotkey]
+ command = "RSATokenAutomation.ahk"
+ location = "C:\\Users\\masterserver\\Desktop\\master-files-automation\\hotkey\\"
+ outputlocation = "C:\\Users\\masterserver\\Desktop\\master-files-automation\\hotkey\\token.ini"
+
+[winscp]
+  location = "C:\\Users\\masterserver\\Desktop\\master-files-automation\\winscp\\"
+  proxy = "mitproxy"
+  outputlocation = "C:\\Users\\masterserver\\Desktop\\master-files-automation\\winscp\\out\\"
+  command = "winscp.bat"
+  transfile = "transfer.txt"
+  log = "test-log.txt"
+  logloc = "C:\\Users\\masterserver\\Desktop\\master-files-automation\\winscp\\logs\\"
+
+  
+[servers]
+ # You can indent as you please. Tabs or spaces. TOML don't care.
+  [servers.prod]
+  url = "prod.mfe.mastercard.com"
+  ip = "12.22.155.207"
+  port= "15022"
+
+  [servers.uprod]
+  url = "uprod.mfe.mastercard.com"
+  ip = "12.22.155.208"
+  port= "16022"
+
+  [servers.test]
+  url = "mtf.mfe.mastercard.com"
+  ip = "216.119.219.6"
+  port= "15022"
+  
+  [servers.utest]
+  url = "umtf.mfe.mastercard.com"
+  ip = "216.119.219.7"
+  port= "16022"
+
+[files]
+# You can indent as you please. Tabs or spaces. TOML don't care.
+  [files.T120]
+  serverlocation = "/0073275/test/download/T120"
+  servername = "YTF.AR.T120.M.E0073275.D*"
+  get = true
+  outputname = "TT120T0"
+  outputlocation = "C:\\MCONLINE\\MFE\\DOWNLOAD\\test\\"
+  prefix = "*.120T"
+  
+  
+  [files.T167]
+  serverlocation = "/0073275/test/download/T167"
+  servername = "YTF.AR.T167.B.CCAR1212.D*"
+  get = true
+  outputname = "TT167T0"
+  outputlocation = "C:\\MCONLINE\\MFE\\DOWNLOAD\\test\\"
+  prefix = "*.167T"

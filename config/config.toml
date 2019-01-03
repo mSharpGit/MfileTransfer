@@ -1,0 +1,80 @@
+# This is a TOML document.
+
+title = "Master Files Toml"
+
+[owner]
+name = "Mahmoud"
+organization = "NCB"
+
+[user]
+ name = "p040747"
+ 
+
+[logs]
+ location = "logs//"
+ name = "log.txt"
+ flag = 1 #os.O_WRONLY
+ permission = 0666
+
+[hotkey]
+ command = "RSATokenAutomation.ahk"
+ location = "C:\\Users\\masterserver\\Desktop\\master-files-automation\\hotkey"
+ outputlocation = "C:\\Users\\masterserver\\Desktop\\token.ini"
+
+[winscp]
+ location = "C:\\Users\\masterserver\\Desktop\\master-files-automation\\winscp\\"
+ proxy = "mitproxy"
+ outputlocation = "C:\\Users\\work\\go\\src\\github.com\\mSharpGit\\master-files-automation\\logs\\"
+ command = "winscp.bat"
+  
+[servers]
+ # You can indent as you please. Tabs or spaces. TOML don't care.
+  [servers.prod]
+  url = "prod.mfe.mastercard.com"
+  ip = "12.22.155.207"
+  port= "15022"
+
+  [servers.uprod]
+  url = "uprod.mfe.mastercard.com"
+  ip = "12.22.155.208"
+  port= "16022"
+
+  [servers.test]
+  url = "mtf.mfe.mastercard.com"
+  ip = "216.119.219.6"
+  port= "15022"
+  
+  [servers.utest]
+  url = "umtf.mfe.mastercard.com"
+  ip = "216.119.219.7"
+  port= "16022"
+
+[files]
+# You can indent as you please. Tabs or spaces. TOML don't care.
+  [files.T112]
+  serverlocation = "/0071969/production/download/T112"
+  servername = "MCI.AR.T112.M.E0071969.D"
+  get = false
+  outputname = "TT112T0.2019-01-01-09-37-53.001"
+  outputlocation = "D://"
+
+  [files.T464]
+  serverlocation = "/0071969/production/download/T464"
+  servername = "MCI.AR.T464.M.E0071969.D"
+  get = false
+  outputname = "TT464T0.2019-01-01-09-37-53.001"
+  outputlocation = "D://"
+  
+  [files.T461]
+  serverlocation = "/0071969/production/download/T461"
+  servername = "MCI.AR.T461.M.E0071969.D"
+  get = false
+  outputname = "TT461T0.2019-01-01-09-37-53.001"
+  outputlocation = "D://"
+  
+  [files.T067]
+  serverlocation = "/0073275/production/download/T067"
+  servername = "MCI.AR.T067.B.CCAR1211.D*"
+  get = true
+  outputname = "*.001"
+  outputlocation = "C:\\Users\\masterserver\\Desktop\\rawDownloads\\"

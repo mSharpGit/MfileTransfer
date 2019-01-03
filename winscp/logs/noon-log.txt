@@ -1,0 +1,6 @@
+
+C:\Users\masterserver\Desktop\master-files-automation>set file=transfer.txt 
+
+C:\Users\masterserver\Desktop\master-files-automation>cd C:\Users\masterserver\Desktop\master-automation\master-files-automation\winscp 
+
+C:\Users\masterserver\Desktop\master-files-automation>REM WinSCP.com /script=transfer.txt 

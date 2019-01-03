@@ -1,0 +1,27 @@
+2019/01/03 12:23:36 ............................................Starting the download Process............................................
+2019/01/03 12:23:36 Used Command:  [master-files-automation.exe prod noon.toml]
+2019/01/03 12:23:36 Number of arguments:  3
+2019/01/03 12:23:36 Config File Title: Noon Files Toml
+2019/01/03 12:23:36 Reading current seconds: 36
+2019/01/03 12:23:36 Seconds are not between zero and one it is not safe to get the Token:  36
+2019/01/03 12:23:36 Waiting for: 24s : then we can get the token safely
+2019/01/03 12:24:00 It is safe to get the Token:  0
+2019/01/03 12:24:00 calling the following command to get the token C:\Users\masterserver\Desktop\master-files-automation\hotkey\RSATokenAutomation.ahk
+2019/01/03 12:24:04 Reading the token from the output of the previous command
+2019/01/03 12:24:04 Token: 46701291
+2019/01/03 12:24:04 Adding to the transfer file open sftp://p040747:46701291@prod.mfe.mastercard.com:15022 -rawsettings ProxyMethod=3 ProxyHost=mitproxy
+2019/01/03 12:24:04 Check if the following file should be downloaded: T140 (MCI.AR.T140.M.E0071969.D, /0071969/production/download/T140,TT140T0, C:\MCONLINE\MFE\DOWNLOAD\, false)
+2019/01/03 12:24:04 Check if the following file should be downloaded: T112 (MCI.AR.T112.M.E0071969.D*, /0071969/production/download/T112,TT112T0, C:\MCONLINE\MFE\DOWNLOAD\, false)
+2019/01/03 12:24:04 Check if the following file should be downloaded: T464 (MCI.AR.T464.M.E0071969.D*, /0071969/production/download/T464,TT464T0, C:\MCONLINE\MFE\DOWNLOAD\, true)
+2019/01/03 12:24:04 Adding to the transfer file:  Adding File to the transfer: T464 (MCI.AR.T464.M.E0071969.D*, /0071969/production/download/T464,TT464T0, C:\MCONLINE\MFE\DOWNLOAD\, true, *.464C)
+2019/01/03 12:24:04 Adding to the transfer file:  cd /0071969/production/download/T464
+2019/01/03 12:24:04 Adding to the transfer file:  get -nopermissions -nopreservetime MCI.AR.T464.M.E0071969.D* C:\Users\masterserver\Desktop\rawDownloads\*.464C
+2019/01/03 12:24:04 Check if the following file should be downloaded: T461 (MCI.AR.T461.M.E0071969.D*, /0071969/production/download/T461,TT461T0, C:\MCONLINE\MFE\DOWNLOAD\, false)
+2019/01/03 12:24:04 Adding to the transfer file:  get -nopermissions -nopreservetime MCI.AR.T464.M.E0071969.D* C:\Users\masterserver\Desktop\rawDownloads\*.464C
+2019/01/03 12:24:04 calling the following command to get the files C:\Users\masterserver\Desktop\master-files-automation\winscp\winscp.bat transfer.txt
+2019/01/03 12:24:04 Starting the rename process for each downloaded file
+2019/01/03 12:24:04 Check if the following file should be renamed: T140 (MCI.AR.T140.M.E0071969.D, /0071969/production/download/T140,TT140T0, C:\MCONLINE\MFE\DOWNLOAD\, false)
+2019/01/03 12:24:04 Check if the following file should be renamed: T112 (MCI.AR.T112.M.E0071969.D*, /0071969/production/download/T112,TT112T0, C:\MCONLINE\MFE\DOWNLOAD\, false)
+2019/01/03 12:24:04 Check if the following file should be renamed: T464 (MCI.AR.T464.M.E0071969.D*, /0071969/production/download/T464,TT464T0, C:\MCONLINE\MFE\DOWNLOAD\, true)
+2019/01/03 12:24:04 Check if the following file should be renamed: T461 (MCI.AR.T461.M.E0071969.D*, /0071969/production/download/T461,TT461T0, C:\MCONLINE\MFE\DOWNLOAD\, false)
+2019/01/03 12:24:04 ............................................Finished the download Process............................................

@@ -1,0 +1,48 @@
+
+C:\Users\masterserver\Desktop\master-files-automation>set file=transfer.txt 
+
+C:\Users\masterserver\Desktop\master-files-automation>cd C:\Users\masterserver\Desktop\master-files-automation\winscp 
+
+C:\Users\masterserver\Desktop\master-files-automation\winscp>WinSCP.com /script=transfer.txt 
+Searching for host...
+Connecting to host...
+Authenticating...
+Using username "p040747".
+Authenticating with pre-entered password.
+Authenticated.
+Starting the session...
+Session started.
+Active session: [1] p040747@mtf.mfe.mastercard.com
+/0073275/test/download/T167
+YTF.AR.T167.B.CCAR1212.D181209.T112045.A001 |        2747 KB |  268.6 KB/s | binary |  99%
+YTF.AR.T167.B.CCAR1212.D181216.T112031.A001 |        2721 KB |  317.2 KB/s | binary |  98%
+YTF.AR.T167.B.CCAR1212.D181223.T112031.A001 |        2622 KB |  319.0 KB/s | binary |  94%
+YTF.AR.T167.B.CCAR1212.D181215.T112059.A001 |        2522 KB |  309.2 KB/s | binary |  90%
+YTF.AR.T167.B.CCAR1212.D190101.T112027.A001 |        2773 KB |  301.6 KB/s | binary |  99%
+YTF.AR.T167.B.CCAR1212.D181225.T112053.A001 |        2754 KB |  307.6 KB/s | binary |  97%
+YTF.AR.T167.B.CCAR1212.D190102.T112044.A001 |        2555 KB |  308.0 KB/s | binary |  90%
+YTF.AR.T167.B.CCAR1212.D181220.T112125.A001 |        2821 KB |  313.7 KB/s | binary |  99%
+YTF.AR.T167.B.CCAR1212.D181207.T112033.A001 |        2655 KB |  315.5 KB/s | binary |  92%
+YTF.AR.T167.B.CCAR1212.D181217.T112116.A001 |        2867 KB |  307.3 KB/s | binary |  99%
+YTF.AR.T167.B.CCAR1212.D181208.T112108.A001 |        2688 KB |  313.7 KB/s | binary |  92%
+YTF.AR.T167.B.CCAR1212.D181226.T112038.A001 |        2854 KB |  311.8 KB/s | binary |  98%
+YTF.AR.T167.B.CCAR1212.D181210.T112039.A001 |        2655 KB |  312.6 KB/s | binary |  91%
+YTF.AR.T167.B.CCAR1212.D181218.T112119.A001 |        2902 KB |  289.6 KB/s | binary |  99%
+YTF.AR.T167.B.CCAR1212.D181219.T112120.A001 |        2688 KB |  265.9 KB/s | binary |  92%
+YTF.AR.T167.B.CCAR1212.D181229.T112038.A001 |        2787 KB |  267.1 KB/s | binary |  95%
+YTF.AR.T167.B.CCAR1212.D181205.T112139.A001 |        2915 KB |  310.9 KB/s | binary |  99%
+YTF.AR.T167.B.CCAR1212.D181212.T112119.A001 |        2754 KB |  316.6 KB/s | binary |  94%
+YTF.AR.T167.B.CCAR1212.D181224.T112135.A001 |        2925 KB |  316.9 KB/s | binary |  99%
+YTF.AR.T167.B.CCAR1212.D181228.T112218.A001 |        2688 KB |  314.8 KB/s | binary |  91%
+YTF.AR.T167.B.CCAR1212.D181231.T112108.A001 |        2754 KB |  266.3 KB/s | binary |  93%
+YTF.AR.T167.B.CCAR1212.D181204.T112052.A001 |        2854 KB |  310.3 KB/s | binary |  96%
+YTF.AR.T167.B.CCAR1212.D181227.T112106.A001 |        2920 KB |  309.1 KB/s | binary |  98%
+YTF.AR.T167.B.CCAR1212.D181211.T114858.A001 |        2979 KB |  308.0 KB/s | binary |  99%
+YTF.AR.T167.B.CCAR1212.D181214.T120800.A001 |        2953 KB |  297.4 KB/s | binary |  94%
+YTF.AR.T167.B.CCAR1212.D181230.T112043.A001 |        3210 KB |  304.8 KB/s | binary |  99%
+YTF.AR.T167.B.CCAR1212.D181213.T112059.A001 |        3119 KB |  314.4 KB/s | binary |  96%
+YTF.AR.T167.B.CCAR1212.D181221.T112116.A001 |        3319 KB |  312.7 KB/s | binary |  98%
+YTF.AR.T167.B.CCAR1212.D181206.T112052.A001 |        3701 KB |  364.6 KB/s | binary |  99%
+YTF.AR.T167.B.CCAR1212.D181222.T112038.A001 |        3816 KB |  376.0 KB/s | binary |  97%
+/0073275/test/download/T120
+YTF.AR.T120.M.E0073275.D190103.T030321.A004 |         1014 B |    0.0 KB/s | binary | 100%
