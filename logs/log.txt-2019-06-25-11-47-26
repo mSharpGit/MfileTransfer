@@ -1,0 +1,7 @@
+2019/06/25 11:47:11 ............................................Starting the download Process............................................
+2019/06/25 11:47:11 Used Command:  [C:\Users\work\go\src\github.com\mSharpGit\MfileTransfer\master-files-automation.exe]
+2019/06/25 11:47:11 Number of arguments:  1
+2019/06/25 11:47:11 Config File Title: Master Files Toml
+2019/06/25 11:47:11 Reading current seconds: 11
+2019/06/25 11:47:11 Seconds are not between zero and five it is not safe to get the Token:  11
+2019/06/25 11:47:11 Waiting for: 49s : then we can get the token safely

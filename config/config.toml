@@ -6,6 +6,9 @@ title = "Master Files Toml"
 name = "Mahmoud"
 organization = "NCB"
 
+[token]
+tokenwait = 45
+
 [user]
  name = "p040747"
  

@@ -3,6 +3,7 @@ package main
 type tomlConfig struct {
 	Title   string
 	Owner   ownerInfo
+	Token   token
 	Servers map[string]server
 	Files   map[string]files
 	Hotkey  hotkey
@@ -14,6 +15,10 @@ type tomlConfig struct {
 type ownerInfo struct {
 	Name string
 	Org  string `toml:"organization"`
+}
+
+type token struct {
+	TokenWait int
 }
 
 type user struct {

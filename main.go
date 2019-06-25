@@ -105,13 +105,13 @@ func main() {
 	t := time.Now()
 	s := t.Second()
 	log.Printf("Reading current seconds: %d", s)
-	if int(s) >= 0 && int(s) < 6 {
-		log.Println("Seconds are between zero and five it is safe to get the Token: ")
+	if int(s) >= 0 && int(s) < config.Token.TokenWait {
+		log.Printf("Seconds are between zero and %d it is safe to get the Token: ", config.Token.TokenWait)
 		//IT IS SAFE TO GET A TOKEN
 		command()
 	} else {
 		//IT IS NOT SAFE TO GET A TOKEN WAITING UNTIL THE MINUTE ENDS THEN PROCEED
-		log.Println("Seconds are not between zero and five it is not safe to get the Token: ", s)
+		log.Printf("Seconds are not between zero and %d it is not safe to get the Token: ", config.Token.TokenWait)
 		wait := (60 - s) * 1000
 		log.Printf("Waiting for: %ds : then we can get the token safely\n", wait/1000)
 

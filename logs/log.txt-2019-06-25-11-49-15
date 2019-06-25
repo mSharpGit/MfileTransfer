@@ -1,0 +1,10 @@
+2019/06/25 11:47:26 ............................................Starting the download Process............................................
+2019/06/25 11:47:26 Used Command:  [C:\Users\work\go\src\github.com\mSharpGit\MfileTransfer\master-files-automation.exe]
+2019/06/25 11:47:26 Number of arguments:  1
+2019/06/25 11:47:26 Config File Title: Master Files Toml
+2019/06/25 11:47:26 Reading current seconds: 26
+2019/06/25 11:47:26 Seconds are not between zero and five it is not safe to get the Token:  26
+2019/06/25 11:47:26 Waiting for: 34s : then we can get the token safely
+2019/06/25 11:48:00 Now it is safe to get the Token:  0
+2019/06/25 11:48:00 calling the following command to get the token C:\Users\masterserver\Desktop\master-files-automation\hotkeyRSATokenAutomation.ahk
+2019/06/25 11:48:00 Error something went wrong with getting the token:  exit status 1
